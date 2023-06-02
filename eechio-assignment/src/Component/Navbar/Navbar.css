@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   width: 90%;
+   margin: auto;
+   background-color: rgb(240, 240, 240);
+}
+
+.header{
+    border-radius: 50px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    height: 40px;
+}
+
+.titles{
+    display: flex;
+    align-items: center;
+}
+
+.hometitle{
+    margin-right: 30px;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+}
+
+.campaign{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: rgb(46, 127, 249) solid;
+}
+
+.accountdiv{
+    display: flex;
+    align-items: center;
+}
+
+.bell{
+    font-size: 20px;
+}
+.account{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 500px){
+    .header{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .hometitle{
+        margin-right: 30px;
+        border: none;
+        background-color: white;
+        font-size: 15px;
+    }
+    
+    .campaign{
+        border: none;
+        padding-bottom: 3px;
+        border-bottom: rgb(46, 127, 249) solid;
+        padding: 3px;
+        background-color: white;
+        font-size: 15px;
+    }
+    .logo{
+        width: 130px;
+        margin-right: -40px;
+    }
+    .accountdiv{
+        position: absolute;
+        right: 35px;
+        top: 40px;
+    }
+
+    .titles{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 425px){
+    body{
+        padding: 2px;
+        width: 96%;
+    }
+
+    .accountdiv{
+        position: absolute;
+        right: 15px;
+        top: 35px;
+    }
+}

@@ -1,0 +1,112 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users":[
+    {
+      "id":1,
+      "subcategory":"barter",
+      "name":"Carry Minati",
+      "body":" Magni quos repellat earum soluta exercitationem quis, explicabo consequuntur mollitia fugiat cumque obcaecati velit delectus repudiandae adipisci eum dolor at deserunt numquam consequatur, maiores sunt.",
+      "popularity":200000,
+      "category":"Autos",
+      "platform":"Youtube",
+      "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdy8aQ9cVQSKgAcSyFMmsn2iHCgTZRRg6Vg&usqp=CAU"
+    },
+    {
+      "id":2,
+      "subcategory":"barter",
+      "name":"Carry Minati",
+      "body":" Magni quos repellat earum soluta exercitationem quis, explicabo consequuntur mollitia fugiat cumque obcaecati velit delectus repudiandae adipisci eum dolor at deserunt numquam consequatur, maiores sunt.",
+      "popularity":2000,
+      "category":"Animation",
+      "platform":"Youtube",
+      "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdy8aQ9cVQSKgAcSyFMmsn2iHCgTZRRg6Vg&usqp=CAU"
+    },
+    {
+      "id":3,
+      "subcategory":"barter",
+      "name":"Carry Minati",
+      "body":" Magni quos repellat earum soluta exercitationem quis, explicabo consequuntur mollitia fugiat cumque obcaecati velit delectus repudiandae adipisci eum dolor at deserunt numquam consequatur, maiores sunt.",
+      "popularity":90000,
+      "category":"Animation",
+      "platform":"Youtube",
+      "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdy8aQ9cVQSKgAcSyFMmsn2iHCgTZRRg6Vg&usqp=CAU"
+    },
+    {
+      "id":4,
+      "subcategory":"paid",
+      "name":"Carry Minati",
+      "body":" Magni quos repellat earum soluta exercitationem quis, explicabo consequuntur mollitia fugiat cumque obcaecati velit delectus repudiandae adipisci eum dolor at deserunt numquam consequatur, maiores sunt.",
+      "popularity":100000,
+      "category":"Autos",
+      "platform":"Instagram",
+      "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdy8aQ9cVQSKgAcSyFMmsn2iHCgTZRRg6Vg&usqp=CAU"
+    },
+    {
+      "id":5,
+      "subcategory":"barter",
+      "name":"Carry Minati",
+      "body":" Magni quos repellat earum soluta exercitationem quis, explicabo consequuntur mollitia fugiat cumque obcaecati velit delectus repudiandae adipisci eum dolor at deserunt numquam consequatur, maiores sunt.",
+      "popularity":22000,
+      "category":"Autos",
+      "platform":"Instagram",
+      "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdy8aQ9cVQSKgAcSyFMmsn2iHCgTZRRg6Vg&usqp=CAU"
+    },
+    {
+      "id":6,
+      "subcategory":"barter",
+      "name":"Carry Minati",
+      "body":" Magni quos repellat earum soluta exercitationem quis, explicabo consequuntur mollitia fugiat cumque obcaecati velit delectus repudiandae adipisci eum dolor at deserunt numquam consequatur, maiores sunt.",
+      "popularity":209000,
+      "category":"Autos",
+      "platform":"Youtube",
+      "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdy8aQ9cVQSKgAcSyFMmsn2iHCgTZRRg6Vg&usqp=CAU"
+    },
+    {
+      "id":7,
+      "subcategory":"barter",
+      "name":"Carry Minati",
+      "body":" Magni quos repellat earum soluta exercitationem quis, explicabo consequuntur mollitia fugiat cumque obcaecati velit delectus repudiandae adipisci eum dolor at deserunt numquam consequatur, maiores sunt.",
+      "popularity":200000,
+      "category":"Autos",
+      "platform":"Instagram",
+      "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdy8aQ9cVQSKgAcSyFMmsn2iHCgTZRRg6Vg&usqp=CAU"
+    },
+    {
+      "id":8,
+      "subcategory":"barter",
+      "name":"Carry Minati",
+      "body":" Magni quos repellat earum soluta exercitationem quis, explicabo consequuntur mollitia fugiat cumque obcaecati velit delectus repudiandae adipisci eum dolor at deserunt numquam consequatur, maiores sunt.",
+      "popularity":200000,
+      "category":"Autos",
+      "platform":"Youtube",
+      "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdy8aQ9cVQSKgAcSyFMmsn2iHCgTZRRg6Vg&usqp=CAU"
+    },
+    {
+      "id":9,
+      "subcategory":"barter",
+      "name":"Carry Minati",
+      "body":" Magni quos repellat earum soluta exercitationem quis, explicabo consequuntur mollitia fugiat cumque obcaecati velit delectus repudiandae adipisci eum dolor at deserunt numquam consequatur, maiores sunt.",
+      "popularity":200000,
+      "category":"Autos",
+      "platform":"Instagram",
+      "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdy8aQ9cVQSKgAcSyFMmsn2iHCgTZRRg6Vg&usqp=CAU"
+    }
+    
+  ]
+}

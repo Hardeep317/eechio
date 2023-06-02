@@ -1,0 +1,250 @@
+.ui-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar{
+    min-height: 100vh;
+    background-color: white;
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.inputContainer{
+    padding: 7px 10px;
+}
+
+#rangeItem{
+    width: 100%;
+}
+
+.sliderData{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.more-categ{
+    font-weight: 500;
+    font-size: 18px;
+    color: #4f90f7;
+    cursor: pointer;
+    letter-spacing: 0px;
+}
+
+.selectall{
+    font-size: 15px;
+    border: none;
+    padding: 8px 16px;
+    color: #4f90f7;
+    margin-right: 10px;
+    background-color: rgb(240, 240, 240)-color;
+    cursor: pointer;
+}
+.invite{
+    font-size: 15px;
+    border: 1px solid gray;
+    padding: 8px 16px;
+    color: #4f90f7;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240)-color;
+    cursor: pointer;
+}
+.campaign-button{
+    font-size: 15px;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+    background-color: #4f90f7;
+    cursor: pointer;
+}
+
+.conatiner{
+    width: 70%;
+    margin-left: 30px;
+}
+.conainer-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.containerhead{
+    margin-top: 35px;
+}
+
+.sort-btns{
+    border: none;
+    background-color: rgb(222, 219, 219);
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.popular{
+    border: none;
+    background-color: #4f90f7;
+    padding: 3px 8px;
+    color: white;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.indi-user{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 15px 0;
+    padding: 30px;
+}
+
+.accepted{
+    border: none;
+    background-color: #07bd2e;
+    padding: 6px 13px;
+    color: white;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.name-component{
+    margin: 0 20px;
+}
+
+.button-indi-component{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-body{
+    margin: 10px 0;
+}
+.item-platform{
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.barted-one{
+    border: none;
+    background-color: #8f4ff7;
+    padding: 6px 13px;
+    color: white;
+    border-radius: 12px;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.indi-image{
+    border-radius: 13px;
+    width: 15vw;
+}
+
+.hamburger{
+    display: none;
+}
+
+.closeside{
+    display: none;
+}
+
+@media screen and (max-width:1025px) {
+    .hamburger{
+        position: absolute;
+        display: block;
+        left: 20px;
+        top: 40px;
+    }
+    .closeside{
+        display: block;
+        position: absolute;
+        left: 20vw;
+        font-size: larger;
+    }
+
+    .sidebar{
+        position: absolute;
+        left: -100%;
+        top: -20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .conatiner{
+        width: 90%;
+        margin: auto;
+    }
+
+    .indi-user{
+        display: block;
+        text-align: center;
+    }
+
+    .selectall{
+        width: 150px;
+        margin: 7px auto;
+    }
+    .invite{
+        width: 150px;
+        margin: 7px auto;
+    }
+
+    .indi-image{
+        width: 30vw;
+    }
+    .campaign-button{
+        width: 150px;
+        margin: 7px auto;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .conainer-buttons{
+        display: block;
+        text-align: center;
+    }
+
+    .head-button{
+        display: block;
+    }
+
+    .hamburger{
+        left: 10vw;
+        top: 60px;
+    }
+
+    .closeside{
+        left: 50vw;
+    }
+
+    .sidebar{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 321px){
+    .indi-image{
+        width: 50vw;
+    }
+}
